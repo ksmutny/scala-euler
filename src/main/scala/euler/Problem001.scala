@@ -14,7 +14,7 @@ object Problem001 {
   def naiveSolution(up: Int): Int = (multiplesOf(3)(up) ++ multiplesOf(5)(up)).sum
 
   /*
-   * Gauss formula-based naiveSolution with O(1)
+   * Gauss formula-based solution with O(1)
    */
 
   case class MultiplesOf(n: Int) {
